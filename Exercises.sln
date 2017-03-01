@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26206.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreePrinter", "TreePrinter\TreePrinter.csproj", "{B9F470AB-9F80-48E6-AB64-8F98165B631E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Util", "Util\Util.csproj", "{72B78214-6AEF-4886-B7E2-3E82D0B93CE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{7BAE132E-0F5A-4AC2-8EC4-04F4CCC4C442}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Util.Tests", "Util.Tests\Util.Tests.csproj", "{575C6801-337B-411A-B776-88763BC969B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B9F470AB-9F80-48E6-AB64-8F98165B631E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B9F470AB-9F80-48E6-AB64-8F98165B631E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B9F470AB-9F80-48E6-AB64-8F98165B631E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B9F470AB-9F80-48E6-AB64-8F98165B631E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72B78214-6AEF-4886-B7E2-3E82D0B93CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72B78214-6AEF-4886-B7E2-3E82D0B93CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72B78214-6AEF-4886-B7E2-3E82D0B93CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72B78214-6AEF-4886-B7E2-3E82D0B93CE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BAE132E-0F5A-4AC2-8EC4-04F4CCC4C442}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BAE132E-0F5A-4AC2-8EC4-04F4CCC4C442}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BAE132E-0F5A-4AC2-8EC4-04F4CCC4C442}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BAE132E-0F5A-4AC2-8EC4-04F4CCC4C442}.Release|Any CPU.Build.0 = Release|Any CPU
+		{575C6801-337B-411A-B776-88763BC969B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{575C6801-337B-411A-B776-88763BC969B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{575C6801-337B-411A-B776-88763BC969B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{575C6801-337B-411A-B776-88763BC969B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

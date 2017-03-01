@@ -1,0 +1,12 @@
+.vs/Exercises/v15/.suo
+Models/bin/*
+Models/obj/*
+packages/*
+TreePrinter/obj/*
+TreePrinter/obj/*
+TreePrinter/obj/*
+Util.Tests/bin/*
+TreePrinter/obj/*
+Util.Tests/obj/Debug/*
+Util/bin/*
+Util/obj/
